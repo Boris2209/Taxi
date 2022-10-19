@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="546dp"
+        android:layout_marginStart="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="107dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text_name"
+            style="@style/style_text_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="30sp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/style_text_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_request"
+            android:layout_marginTop="10sp"
+            android:layout_below="@+id/text_name"/>
+
+        <EditText
+            android:id="@+id/addressA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:ems="10"
+            android:hint="@string/addressA_text"
+            android:inputType="textPersonName|textCapWords"
+            android:minHeight="48dp"
+            android:paddingTop="30dp" />
+
+        <EditText
+            android:id="@+id/addressB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addressA"
+            android:ems="10"
+            android:hint="@string/addressB_text"
+            android:inputType="textPersonName|textCapWords"
+            android:minHeight="48dp"
+            android:paddingTop="30dp" />
+
+        <EditText
+            android:id="@+id/text_datetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addressB"
+            android:ems="10"
+            android:hint="@string/text_datetime"
+            android:inputType="textPersonName|textCapWords"
+            android:paddingTop="30dp" />
+
+        <CheckBox
+            android:id="@+id/check_child"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_datetime"
+            android:buttonTint="@color/purple_500"
+            android:text="@string/text_child"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editNumberPhone"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:ems="10"
+            android:hint="@string/text_number_phone"
+            android:inputType="phone"
+            android:layout_below="@+id/check_child"/>
+
+        <EditText
+            android:id="@+id/text_more"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_below="@+id/editNumberPhone"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/text_more"
+            android:inputType="textMultiLine|textCapWords"
+            android:paddingTop="20dp" />
+
+        <Button
+            android:id="@+id/button_start_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_start_request"
+            android:onClick="onMyButtonClick"
+            android:layout_below="@+id/text_more" />
+
+        <Button
+            android:id="@+id/button_history"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_start_request"
+            android:text="@string/history_button"
+            android:textColor="@color/color_button_info" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

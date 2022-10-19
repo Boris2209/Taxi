@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Такси Кострово</string>
+    <string name="addressA_text">Адрес отправления</string>
+    <string name="addressB_text">Адрес назначения</string>
+    <string name="text_request">Укажите параметры для заявки:</string>
+    <string name="text_datetime">Укажите дату и время</string>
+    <string name="text_child">Детское кресло</string>
+    <string name="text_more">Дополнительные параметры</string>
+    <string name="text_start_request">Отправить заявку</string>
+    <string name="text_number_phone">Номер телефона для связи</string>
+    <string name="text_login">Логин</string>
+    <string name="text_password">Пароль</string>
+    <string name="text_FIO">Фамилия Имя</string>
+    <string name="button_reg">Зарегистрироваться</string>
+    <string name="button_authorization">Войти</string>
+    <string name="number"><u>+7 916 400 15 00</u></string>
+
+    <string name="main_number_info">Если возникнут вопросы, жмите звоните:</string>
+    <string name="info_aut">Введите логин и пароль, указанные при регистрации:</string>
+    <string name="info_reg">Заполните достоверыне данные о себе:</string>
+    <string name="history_button">История моих заказов</string>
+
+    <string name="text_history">У вас еще нет заказов</string>
+
+    <string name="inform_text">С помошью данной программы вы можете оставлять предвариельные заказы
+    для вызова такси в компании Такси Кострово. Программа в данный момент работает в тестовом режиме.
+    В случае возникновения вопросов звонить по телефону +7(916)400-15-00</string>
+    <string name="button_info"><u>О программе</u></string>
+</resources>
